@@ -1,0 +1,30 @@
+body
+{
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1
+{
+    width: 100%;
+    margin-top: 0px;
+    top: 0;
+    font-size: 24px !important;
+}
+#crp 
+{
+    width: 100%;
+    bottom: 0;
+    background-color: goldenrod;
+    position: fixed;
+    margin-bottom: 0px;
+    color: black;
+    text-align: center;
+    line-height: 2;
+}
+canvas
+{
+    box-shadow: 3px 3px 45px white;
+    border: 5px grey ridge;
+    border-radius: 10px;
+}
